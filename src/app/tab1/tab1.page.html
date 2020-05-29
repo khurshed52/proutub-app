@@ -6,12 +6,26 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<ion-content>
+  <div id="video">
+    <video poster="images/poster.jpg" id="bgvid" playsinline="" autoplay="" muted="" loop="">
+    <source src="assets/video/social.mp4" type="video/webm">
+    <source src="assets/video/social.mp4" type="video/mp4">
+</video>
+<div class="banner-area">
+  <h1> We Are Proutub</h1>
+  <p>Top Digital Marketing Agency for your Business 
+    Providing Social Media Advertising, Social Media marketing services.
+  </p>
+</div>
+  </div>
+  <div class="slider">
+    <ion-slides [options]="slideOptsOne">
+    <ion-slide *ngFor="let item of images">
+      <img src={{item.url}} alt="img"/> 
+      <p> {{item.text}}</p>
+    </ion-slide>
+  </ion-slides>
+  </div>
+ 
 </ion-content>

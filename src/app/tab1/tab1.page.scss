@@ -1,0 +1,57 @@
+#video {
+    position: relative;
+    overflow: hidden;
+}
+
+#video:before {
+    content: '';
+    background: #00000092 url(https://jaysalvat.github.io/vegas/releases/latest/overlays/02.png);
+    background-repeat: repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}
+
+video {
+    position: relative;
+    z-index: 9;
+    object-fit: initial;
+    width: 100%;
+}
+
+.banner-area{
+    text-align: center;
+    position: absolute;
+    top: 3em;
+    z-index: 999;
+    color: #fff;
+}
+
+.banner-area h1 {
+    text-transform: uppercase;
+    font-size: 1.8em;
+    letter-spacing: 1px;
+}
+
+.banner-area p {
+    line-height: 1.8em;
+}
+
+.slider img {
+    width: 250px !important;
+    margin-top: 1em;
+    height: 250px;
+}
+
+.swiper-slide {
+    display: block !important;
+} 
+
+.swiper-container-horizontal > .swiper-pagination
+{
+    bottom          : 50%; //Change accordingly
+    z-index         : 99 !important;
+}

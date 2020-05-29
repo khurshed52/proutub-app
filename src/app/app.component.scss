@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'interface_lightregular';
+    src: url('../assets/fonts/if_std_light-webfont.woff2') format('woff2'),
+         url('../assets/fonts/if_std_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  
+  @font-face {
+    font-family: 'foundrymonolinemedium';
+    src: url('../assets/fonts/5d7a5e8c26acc67516eed07d_foundrymonoline-medium-webfont.woff2') format('woff2'),
+         url('../assets/fonts/5d7a5e8c26acc67516eed07d_foundrymonoline-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  @font-face {
+    font-family: 'foundrymonoline-boldbold';
+    src: url('../assets/fonts/5d7a5e8ca637b34606b7bc0d_foundrymonoline-bold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/5d7a5e8ca637b34606b7bc0d_foundrymonoline-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  
+  @font-face {
+    font-family: 'foundrymonoline-regularRg';
+    src: url('../assets/fonts/5d7a5e8ce5f68d23cb7c673e_foundrymonoline-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/5d7a5e8ce5f68d23cb7c673e_foundrymonoline-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'foundrymonolinemedium' !important;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'foundrymonolinemedium' !important;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'foundrymonolinemedium' !important;
+}
+
+p {
+    margin: 0px ;
+}
