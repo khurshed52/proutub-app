@@ -47,6 +47,10 @@ html {
     font-family: 'foundrymonolinemedium' !important;
 }
 
+.ios {
+  --ion-font-family: 'foundrymonolinemedium' !important; /* It's also good to add a fallback font here */
+} 
+
 * {
     margin: 0px;
     padding: 0px;
