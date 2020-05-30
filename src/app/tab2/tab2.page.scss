@@ -3,14 +3,15 @@ a.menu-bg {
     width: 100%;
     display: block;
     padding: 10px;
-    box-shadow: 0 0 8px #dfdbdb;
+    box-shadow: 0 0px 20px #d0cece;
     background-color: #fff;
-    -webkit-border-radius: 0px 15px 15px 15px; 
-    -moz-border-radius: 0px 15px 15px 15px; 
-    border-radius: 0px 15px 15px 15px; 
+    -webkit-border-radius: 0px 20px 20px 20px; 
+    -moz-border-radius: 0px 20px 20px 20px; 
+    border-radius: 0px 20px 20px 20px; 
     text-align: center;
     color: #443344;
     text-decoration: none;
+    margin-top: 2em;
 }
 
 a.menu-bg span {
@@ -21,3 +22,6 @@ a.menu-bg img {
     margin-bottom: 0.5em;
 }
 
+ion-col {
+    margin: 5px;
+}
