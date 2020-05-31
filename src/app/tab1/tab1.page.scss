@@ -1,6 +1,5 @@
 #video {
     position: relative;
-    overflow: hidden;
 }
 
 #video:before {
@@ -55,4 +54,12 @@ video {
 {
     bottom          : 50%; //Change accordingly
     z-index         : 99 !important;
+}
+
+.video-zig img {
+    width: 100%;
+    position: absolute;
+    bottom: -21px;
+    z-index: 999;
+    height: 50px;
 }

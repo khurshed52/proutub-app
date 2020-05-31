@@ -12,4 +12,11 @@ export class AboutPage implements OnInit {
   ngOnInit() {
   }
 
+  slideOptsOne = {
+    initialSlide: 0,
+    slidesPerView: 1,
+    autoplay:true,
+    pagination: true
+  }
+
 }
