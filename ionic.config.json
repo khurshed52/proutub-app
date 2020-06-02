@@ -1,5 +1,7 @@
 {
   "name": "proutub",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
