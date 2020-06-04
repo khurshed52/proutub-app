@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tab4.page.scss'],
 })
 export class Tab4Page implements OnInit {
-  theme:string = 'light';
+  theme:string = 'Light';
   constructor() { }
 
   ngOnInit() {
@@ -14,12 +14,12 @@ export class Tab4Page implements OnInit {
 
     // switch theme
     public switchTheme() {
-      if(this.theme == "light") {
+      if(this.theme == "Light") {
         document.body.classList.add('dark');
-        this.theme = "dark"
+        this.theme = "Dark"
       } else {
         document.body.classList.remove('dark');
-        this.theme = 'light'
+        this.theme = 'Light'
       }
     }
 
