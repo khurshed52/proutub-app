@@ -13,7 +13,7 @@ const routes: Routes = [
   {
     path: 'plans',
     loadChildren: () => import('./plans/plans.module').then( m => m.PlansPageModule)
-  },
+  }
 ];
 @NgModule({
   imports: [
