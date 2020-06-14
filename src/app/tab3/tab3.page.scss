@@ -33,3 +33,71 @@ ion-icon {
     vertical-align: text-bottom;
     margin-right: 5px;
 }
+
+
+#circ {
+    max-width: 100%;
+    width: 1280px;
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+  }
+  #circ ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  #circ ul li {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    margin: 0 20px 20px 20px;
+    text-align: center;
+    background: #fff;
+    border: solid 4px #00897b;
+    position: relative;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    line-height: 42px;
+  }
+  #circ ul li:hover {
+    border: solid 4px #004d40;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    cursor: pointer;
+  }
+
+  #circ ul li a {
+      font-size: 1.5em;
+      margin-top: 1.5em;
+      color: #004d40;
+  }
+  
+@media only screen and (max-width: 1200px) {
+    h1 {
+      font-size: 4em;
+    }
+  
+    .icon {
+      position: relative;
+      margin-top: 20%;
+      color: #004d40;
+      font-size: 1.5em;
+      -webkit-transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+      -moz-transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+      transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    }
+  
+    #circ ul li {
+      width: 50px;
+      height: 50px;
+      margin: 0 5px 5px 5px;
+    }
+    #circ ul li:hover .icon {
+      font-size: 2.5em;
+    }
+  }
