@@ -8,7 +8,6 @@
 
 .cont ul {
     background: #fff;
-    padding: 1em;
     margin: 1em;
     box-shadow: 0 0px 20px #d0cece;
 }
@@ -100,4 +99,8 @@ ion-icon {
     #circ ul li:hover .icon {
       font-size: 2.5em;
     }
+  }
+
+  .img-loaded + ion-spinner {
+    display:none;
   }

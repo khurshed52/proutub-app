@@ -9,4 +9,6 @@ export class Tab3Page {
 
   constructor() {}
 
+  spinner = 'https://gas.gov.ae/assets/images/animated_spinner.gif';
+  contactImage ='../../assets/images/contact.svg';
 }
