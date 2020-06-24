@@ -17,7 +17,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<ion-tabs>\n\n  <ion-tab-bar slot=\"bottom\">\n    <ion-tab-button tab=\"tab1\">\n      <ion-icon name=\"home-outline\"></ion-icon>\n      <ion-label>Home</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"tab2\">\n      <ion-icon name=\"apps-outline\"></ion-icon>\n      <ion-label>Menu</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"tab3\">\n      <ion-icon name=\"call-outline\"></ion-icon>\n      <ion-label>Contact</ion-label>\n    </ion-tab-button>\n  </ion-tab-bar>\n\n</ion-tabs>\n";
+    __webpack_exports__["default"] = "<ion-tabs>\n\n  <ion-tab-bar slot=\"bottom\">\n    <ion-tab-button tab=\"tab1\">\n      <ion-icon name=\"home-outline\"></ion-icon>\n      <ion-label>Home</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"tab2\">\n      <ion-icon name=\"apps-outline\"></ion-icon>\n      <ion-label>Menu</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"tab3\">\n      <ion-icon name=\"call-outline\"></ion-icon>\n      <ion-label>Contact</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"tab4\">\n      <ion-icon name=\"settings-outline\"></ion-icon>\n      <ion-label>Settings</ion-label>\n    </ion-tab-button>\n\n  </ion-tab-bar>\n\n</ion-tabs>\n";
     /***/
   },
 
@@ -102,6 +102,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           });
         }
       }, {
+        path: 'tab4',
+        loadChildren: function loadChildren() {
+          return __webpack_require__.e(
+          /*! import() | tab4-tab4-module */
+          "tab4-tab4-module").then(__webpack_require__.bind(null,
+          /*! ../tab4/tab4.module */
+          "./src/app/tab4/tab4.module.ts")).then(function (m) {
+            return m.Tab4PageModule;
+          });
+        }
+      }, {
         path: 'tab2/about',
         loadChildren: function loadChildren() {
           return __webpack_require__.e(
@@ -121,6 +132,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           /*! ../plans/plans.module */
           "./src/app/plans/plans.module.ts")).then(function (m) {
             return m.PlansPageModule;
+          });
+        }
+      }, {
+        path: 'testimonial',
+        loadChildren: function loadChildren() {
+          return __webpack_require__.e(
+          /*! import() | testimonial-testimonial-module */
+          "testimonial-testimonial-module").then(__webpack_require__.bind(null,
+          /*! ../testimonial/testimonial.module */
+          "./src/app/testimonial/testimonial.module.ts")).then(function (m) {
+            return m.TestimonialPageModule;
           });
         }
       }, {

@@ -436,7 +436,7 @@ module.exports = webpackAsyncContext;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-app>\n  <ion-router-outlet></ion-router-outlet>\n</ion-app>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-app>\n  <ion-router-outlet></ion-router-outlet>\n</ion-app>\n\n");
 
 /***/ }),
 
@@ -469,6 +469,10 @@ const routes = [
         path: 'plans',
         loadChildren: () => __webpack_require__.e(/*! import() | plans-plans-module */ "plans-plans-module").then(__webpack_require__.bind(null, /*! ./plans/plans.module */ "./src/app/plans/plans.module.ts")).then(m => m.PlansPageModule)
     },
+    {
+        path: 'testimonial',
+        loadChildren: () => __webpack_require__.e(/*! import() | testimonial-testimonial-module */ "testimonial-testimonial-module").then(__webpack_require__.bind(null, /*! ./testimonial/testimonial.module */ "./src/app/testimonial/testimonial.module.ts")).then(m => m.TestimonialPageModule)
+    }
 ];
 let AppRoutingModule = class AppRoutingModule {
 };

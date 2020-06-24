@@ -166,7 +166,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<ion-app>\n  <ion-router-outlet></ion-router-outlet>\n</ion-app>\n";
+    __webpack_exports__["default"] = "<ion-app>\n  <ion-router-outlet></ion-router-outlet>\n</ion-app>\n\n";
     /***/
   },
 
@@ -239,6 +239,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         /*! ./plans/plans.module */
         "./src/app/plans/plans.module.ts")).then(function (m) {
           return m.PlansPageModule;
+        });
+      }
+    }, {
+      path: 'testimonial',
+      loadChildren: function loadChildren() {
+        return __webpack_require__.e(
+        /*! import() | testimonial-testimonial-module */
+        "testimonial-testimonial-module").then(__webpack_require__.bind(null,
+        /*! ./testimonial/testimonial.module */
+        "./src/app/testimonial/testimonial.module.ts")).then(function (m) {
+          return m.TestimonialPageModule;
         });
       }
     }];

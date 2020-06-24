@@ -9,7 +9,7 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-header [translucent]=\"true\">\n  <ion-toolbar color=\"primary\">\n    <ion-title>\n      <!-- <img alt=\"logo\" id=\"header_logo\" height=\"40\" float-left src=\"assets/images/logo.svg\"> -->\n      Home\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content>\n  <div id=\"video\">\n    <video poster=\"assets/images/poster.jpg\" id=\"bgvid\" playsinline=\"\" autoplay=\"\" muted=\"\" loop=\"\">\n    <source src=\"assets/video/social.mp4\" type=\"video/webm\">\n    <source src=\"assets/video/social.mp4\" type=\"video/mp4\">\n</video>\n<div class=\"banner-area\">\n  <h1> We Are Proutub</h1>\n  <p>Top Digital Marketing Agency for your Business \n    Providing Social Media Advertising, Social Media marketing services.\n  </p>\n</div>\n\n<div class=\"video-zig\">\n  <img src=\"assets/images/video-bg.svg\" alt=\"video-bg\"/> \n</div>\n  </div>\n\n  \n\n  <div class=\"slider\">\n    <ion-slides [options]=\"slideOptsOne\">\n    <ion-slide *ngFor=\"let item of images\">\n      <img src={{item.url}} alt=\"img\"/> \n      <p> {{item.text}}</p>\n    </ion-slide>\n  </ion-slides>\n  </div>\n \n</ion-content>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-header [translucent]=\"true\">\n  <ion-toolbar color=\"primary\">\n    <ion-title>\n      <!-- <img alt=\"logo\" id=\"header_logo\" height=\"40\" float-left src=\"assets/images/logo.svg\"> -->\n      Home\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content>\n  <div id=\"video\">\n    <video poster=\"assets/images/poster.jpg\" id=\"bgvid\" playsinline=\"\" autoplay=\"\" muted=\"\" loop=\"\">\n</video>\n<div class=\"banner-area\">\n  <h1> We Are Proutub</h1>\n  <p>We are an online digital marketing service that helps content creators and businesses to expand their audience\n\n  </p>\n</div>\n\n<div class=\"video-zig\">\n  <img src=\"assets/images/video-bg.svg\" alt=\"video-bg\"/> \n</div>\n  </div>\n\n  \n\n  <div class=\"slider\">\n    <ion-slides [options]=\"slideOptsOne\">\n    <ion-slide *ngFor=\"let item of images\">\n      <img src={{item.url}} alt=\"img\"/> \n      <p> {{item.text}}</p>\n    </ion-slide>\n  </ion-slides>\n  </div>\n \n</ion-content>\n");
 
 /***/ }),
 
@@ -127,13 +127,11 @@ let Tab1Page = class Tab1Page {
         this.slideOptsOne = {
             initialSlide: 0,
             slidesPerView: 1,
-            autoplay: true,
+            autoplay: false,
             pagination: true
         };
         this.images = [
             { id: 1, url: '../../assets/images/slide-1.svg', text: 'Grow Your YouTube Channel with Genuine Views, Likes, Subscribers and Comments.' },
-            { id: 2, url: '../../assets/images/slide-2.svg', text: 'Get More Genuine Facebook Likes, Increase Facebook Likes, Post Likes, Profile Followers' },
-            { id: 3, url: '../../assets/images/slide-3.svg', text: 'Get More Likes and views on Your Instagram' }
         ];
     }
 };
